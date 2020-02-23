@@ -74,7 +74,7 @@ class SignUp extends Component {
 						required
 					/>
 					<FormInput
-						type="confirmPassword"
+						type="password"
 						name="confirmPassword"
 						value={this.state.confirmPassword}
 						onChange={this.handleChange}
